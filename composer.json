@@ -1,0 +1,14 @@
+{
+    "name": "teggoin/healthcheck",
+    "description": "A Laravel package to check application health.",
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "laravel/framework": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teggoin\\HealthCheck\\": "src/"
+        }
+    }
+}
